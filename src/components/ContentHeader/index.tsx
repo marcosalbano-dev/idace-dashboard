@@ -1,11 +1,20 @@
 import React from "react";
 
-import { Container } from './styles'
+import { Container, TitleContainer, Controllers } from './styles'
+import SelectInput from "../SelectInput";
 
 const ContentHeader: React.FC = () => {
     return(
         <Container>
-            <h1>Content Header</h1>
+            <TitleContainer>
+                <h1>Título</h1>
+            </TitleContainer>
+            <Controllers>
+                <SelectInput>
+                </SelectInput>
+                <SelectInput>
+                </SelectInput>
+            </Controllers>
         </Container>
         
     );

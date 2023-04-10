@@ -9,7 +9,7 @@ interface ChildrenProps {
 const Content: React.FC<ChildrenProps> = ({ children }) => {
 	return (
 		<Container>
-			{ children}
+			{ children }
 		</Container>
 	)
 }
